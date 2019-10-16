@@ -1,0 +1,126 @@
+.title-project {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #606061;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.title-project-l {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #606061;
+    padding-bottom: 30px;
+    justify-content: flex-end;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.link-project {
+    color: #6c757d!important;
+    text-align: left;
+    font-size: 22px;
+}
+.description-project{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #6c757d!important;
+    text-align: left;
+    font-size: 22px;
+}
+.description-project-l {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #6c757d!important;
+    text-align: right;
+    font-size: 22px;
+}
+.image-project {
+    height: 80vh !important;
+    width: 100%;
+}
+
+.row-projects {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#header-projects {
+    background: rgba(63, 63, 63, 0.45);
+}
+.title_projects {
+    height: 70vh;
+    background: url(/cslab-upm/images/aurora_short.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .image-project {
+        height: 60vh !important;
+        width: 80vw !important;
+    }
+    .title-project {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .title-project-l {
+        font-size: 25px;
+        padding-top: 30px;
+        justify-content: left;
+    }
+    .description-project  {
+        font-size: 16px;
+    }
+    .description-project-l {
+        font-size: 16px;
+        text-align: left;
+    }
+    .link-project {
+        font-size: 16px;
+    }
+}
+.textWithBlurredBg{
+    width:300px;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+}
+
+.textWithBlurredBg img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+}
+
+.textWithBlurredBg:hover img{
+    filter:blur(2px) brightness(60%);
+}
+
+.textWithBlurredBg :not(img){
+    position:absolute;
+    z-index:1;
+    top:40%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.textWithBlurredBg h3{
+    top:50%
+}
+
+.textWithBlurredBg:hover :not(img){
+    opacity:1;
+}
+
+.logo-webs {
+    text-align: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}

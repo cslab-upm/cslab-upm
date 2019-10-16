@@ -1,0 +1,325 @@
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: 50%;
+}
+.icon-scroll {
+    width: 40px;
+    height: 70px;
+    margin-left: -20px;
+    top: 93%;
+    margin-top: -35px;
+    box-shadow: inset 0 0 0 1px #fff;
+    border-radius: 25px;
+}
+.icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin-left: -4px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+}
+@keyframes scroll   {
+    0% {opacity: 1}
+    100% {opacity: 0 ; transform: translateY(46px)}
+}
+
+    /* GENERAL USE */
+.text-muted {
+    font-size: 1.1em !important;
+}
+.title-page {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    width: fit-content;
+    position: relative;
+    padding-top: 30vh;
+    padding-left:40px;
+}
+.description-page {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 3vh;
+    left: 40px;
+    width: 70%;
+}
+.description-page::selection , .title-page::selection {
+    background-color: rgba(39, 39, 39, 0.88);
+}
+
+.scroll-button {
+    width: fit-content;
+    text-decoration: none !important;
+    padding: 4px 10px;
+    background-color: #272727;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    left: 40px;
+}
+.scroll-button:hover {
+    border: 1px solid #45E8FF;
+    color: #45E8FF;
+}
+@media (max-width: 768px) {
+    .title-page{
+        padding-top: 10vh;
+    }
+    .description-page{
+        top: 26%;
+        font-size: 16px;
+    }
+    .scroll-button {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+/* NAVIGATION */
+/* Navbar animation for color-transparency transition. Also look at /js/navigation.js */
+.cslab {
+    width:  100px;
+}
+
+nav {
+   background-color: transparent;
+/*  background-color: #272727 !important;*/
+ transition: background-color 0.4s ease-out;
+}
+.nav-item {
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .nav-item {
+        font-size: 16px;
+    }
+}
+
+nav.scroll {
+ background-color: #272727 !important;
+ color: #eef;
+}
+
+.fa-bars {
+    color: #45E8FF;
+}
+.navbar-toggler {
+    border: 1px solid #646464 !important;
+}
+.nav-item .nav-link {
+    color: white !important;
+    transition: color 0.5s ease;
+}
+.navbar-brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-right: 2rem;
+}
+
+/* Changes the color of the items in the navbar when the mouse passes above them  */
+.nav-item:not(.active):hover .nav-link:not(.active):hover {
+    color: #45E8FF !important;
+}
+
+/* Changes the color background of the active item in the menu */
+li.active {
+    border-bottom: 2px solid #45E8FF;
+}
+li.active:hover {
+    color: #45E8FF !important;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    background: #707070;
+    height: 100vh;
+    background: url(/cslab-upm/images/aurora.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content {
+    width: 100%;
+    position: relative;
+    top: 100vh;
+    background: #ffffff;
+}
+
+.welcome-text {
+    padding-top: 40vh;
+    padding-bottom: 90px;
+}
+
+@font-face {
+    font-family: Zebulon;
+    src: url("/cslab-upm/fonts/Zebulon.otf");
+}
+.presentation-h {
+    text-align: center;
+    font-family: Zebulon;
+    color: white;
+    font-size: 4vw;
+    animation: fadeIn 5.0s;
+    padding-bottom: 100px;
+}
+@media (max-width: 768px) {
+    .presentation-h {
+        font-size: 8vw;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+          }
+}
+
+/* LANDING */
+html {
+    scroll-behavior: smooth;
+}
+section {
+    background: white;
+    padding: 100px 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+.research-area {
+    font-size: 21px !important;
+    margin: 15px 0;
+}
+.section-description {
+    margin-bottom: 75px;
+}
+.section-name {
+    margin-bottom: 50px;
+}
+.fa-circle {
+    color: #45E8FF !important;
+}
+#our-projects {
+    background-color: #f9f9f9;
+}
+.logos-projects {
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+    transition: .3s;
+}
+.logos-projects:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}
+.location-map {
+    height: 20% !important;
+}
+.fa-map-marker-alt {
+    color: #45E8FF;
+}
+.fa-building {
+    color: #45E8FF;
+}
+
+/* FOOTER */
+.page-footer {
+    background-color: #272727 !important;
+}
+.logo-social {
+    text-align: center;
+}
+.fa-facebook-f  {
+    color: #45E8FF !important;
+}
+.fa-twitter {
+    color: #45E8FF !important
+}
+.fa-linkedin-in {
+    color: #45E8FF !important;
+}
+.fa-instagram {
+    color: #45E8FF !important;
+}
+.fa-google-plus-g {
+    color: #45E8FF !important;
+}
+.footer-copyright {
+    color: white;
+}
+.link-web {
+    color: #3FA7E8;
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.63) !important;
+    border: 1px solid #adadb2 !important;
+}
+.dropdown-item {
+    color:white !important;
+    background-color: transparent;
+}
+.dropdown-item:hover {
+    background-color: #45E8FF !important;
+}
+
+.col-md-4{
+    padding-bottom: 40px;
+}
+.row-separation {
+    padding-bottom: 40px;
+}
+/* Eventos */
+@media (max-width: 768px) {
+    .event-details {
+        padding-top: 25px !important;
+    }
+}
+.event-details {
+    padding: 25px;
+    padding-top: 0px;
+}
+
+.event-row {
+    padding-bottom: 10px;
+}
+.poster-event {
+    width: 100%;
+}
+.event-property {
+    color: #6c757d;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.event-value {
+    padding-left: 10px;
+    color: #6c757d !important
+}
