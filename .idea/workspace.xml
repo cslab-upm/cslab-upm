@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0a535c-791c-4560-aaef-140c923e8b31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/proyectos/cazasteroides.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/cazasteroides.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/contadores-de-estrellas.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/contadores-de-estrellas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/gloria.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/gloria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/megara.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/megara.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,11 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proyectos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="75" column="55" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="55" />
+            <state relative-caret-position="175">
+              <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proyectos/contadores-de-estrellas.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
@@ -191,11 +191,11 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/projects.css" />
-        <option value="$PROJECT_DIR$/proyectos.html" />
         <option value="$PROJECT_DIR$/proyectos/megara.html" />
         <option value="$PROJECT_DIR$/proyectos/gloria.html" />
         <option value="$PROJECT_DIR$/proyectos/cazasteroides.html" />
         <option value="$PROJECT_DIR$/proyectos/contadores-de-estrellas.html" />
+        <option value="$PROJECT_DIR$/proyectos.html" />
       </list>
     </option>
   </component>
@@ -286,12 +286,12 @@
       <workItem from="1570444560031" duration="593000" />
       <workItem from="1571214202453" duration="240000" />
       <workItem from="1571381246872" duration="1765000" />
-      <workItem from="1571759470196" duration="3437000" />
+      <workItem from="1571759470196" duration="3699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297319000" />
+    <option name="totallyTimeSpent" value="297581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -496,13 +496,6 @@
     <entry file="file://$PROJECT_DIR$/images/megara.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyectos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="75" column="55" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1742">
@@ -545,6 +538,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyectos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
