@@ -124,3 +124,58 @@
     height: 80px;
     width: 80px;
 }
+
+/* Carousel project images */
+.data-sheet {
+    padding: 20px;
+    background-color: #212529;
+}
+.info-col {
+    background-color: #80808045;
+}
+.carousel-inner {
+    height: 55vh;
+}
+.carousel-item {
+    height: 100% !important;
+}
+.carousel-indicators li {
+    width: 160px !important;
+}
+.carousel-indicators {
+    position: relative !important;
+    height: 70px;
+    top:0;
+}
+.project-summary {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.property-name {
+    font-size: 0.9em;
+    color: #45e8ff;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.property-value {
+    font-size: 0.9em;
+    color: #bbbbbb;
+}
+.project-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fafafa;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+.project-description {
+    font-size: 0.9em;
+    color: #bbbbbb;
+}
+.thumbnail-size {
+    height: 80px;
+}
+.sponsor-logo {
+    height: 100px;
+}
