@@ -144,7 +144,7 @@ header {
     position: fixed;
     background: #707070;
     height: 100vh;
-    background: url(/cslab-upm/images/aurora.jpg) no-repeat center;
+    background: url(/images/aurora.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -164,7 +164,7 @@ header {
 
 @font-face {
     font-family: Zebulon;
-    src: url("/cslab-upm/fonts/Zebulon.otf");
+    src: url("/fonts/Zebulon.otf");
 }
 .presentation-h {
     text-align: center;
