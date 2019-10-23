@@ -179,3 +179,18 @@
 .sponsor-logo {
     height: 100px;
 }
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 30vh !important;
+    }
+    .thumbnail-size {
+        height: 7vh !important;
+    }
+    .carousel-control-next {
+        height: 30vh !important;
+    }
+    .carousel-control-prev {
+        height: 30vh !important;
+    }
+}
