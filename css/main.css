@@ -1,3 +1,7 @@
+::selection {
+    background: #3fa7e8;
+    color: #fff;
+}
 .icon-scroll,
 .icon-scroll:before {
     position: absolute;
@@ -254,6 +258,21 @@ section {
 /* FOOTER */
 .page-footer {
     background-color: #272727 !important;
+}
+.footer-logos {
+    height: fit-content;
+    display: block;
+    padding-bottom: 20px;
+    margin: 0 1.5em 0 1.5em;
+    width: calc(100% - 3em);
+    text-align: center;
+}
+.footer-logo {
+    background-color: #fff;
+    height: 10vh;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
 }
 .logo-social {
     text-align: center;

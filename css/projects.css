@@ -194,3 +194,13 @@
         height: 30vh !important;
     }
 }
+
+.project-card {
+    width: 32%;
+    text-align: center;
+    position: relative;
+    margin: 5px;
+    display: inline-block;
+    min-width: 200px;
+    vertical-align: text-top;
+}
